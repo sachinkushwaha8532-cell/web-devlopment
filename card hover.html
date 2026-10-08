@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Headphone Card</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: grey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      width: 290px;
+      background: lightblue;
+      padding: 12px;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px yellowgreen;
+    }
+
+    .image-box {
+      height: 260px;
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 6px;
+    }
+
+    .image-box img {
+      width: 90%;
+      height: 90%;
+      object-fit: contain;
+    }
+
+    .card h2 {
+      font-size: 18px;
+      margin-top: 12px;
+    }
+
+    .rating {
+      color: red;
+      margin: 6px 0;
+    }
+
+    .rating span {
+      color: orangered;
+      font-size: 13px;
+    }
+
+    .description {
+      color: black;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .cart-btn {
+      width: 100%;
+      margin-top: 12px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background: orangered;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .cart-btn:hover {
+      background: whitesmoke;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <div class="image-box">
+    <img src="https://www.google.com/imgres?q=headphone%20pic&imgurl=https%3A%2F%2Fshop.zebronics.com%2Fcdn%2Fshop%2Ffiles%2FZeb-thunder-pro-blue-pic-1.jpg%3Fv%3D1775891558%26width%3D2000&imgrefurl=https%3A%2F%2Fshop.zebronics.com%2Fproducts%2Fzeb-thunder-pro%3Fsrsltid%3DAU7gw4We4RRQcLJHJMtJxZHeItPrWMUbjYEL1Ess7jKwQC8jTUnCYGsy&docid=yLQtSUJ_oVkH2M&tbnid=QCMS-EeobGJ4EM&vet=12ahUKEwiqpZ7WnZiXAxXMkuEIHT8pJYIQnPAOegQINRAA..i&w=2000&h=2000&hcb=2&ved=2ahUKEwiqpZ7WnZiXAxXMkuEIHT8pJYIQnPAOegQINRAA" alt="headphone">
+    </div>
+
+    <h2>Wireless Headphones</h2>
+
+    <div class="rating">
+      ★★★★★ <span>(4.2) | 1.2K reviews</span>
+    </div>
+
+    <p class="description">
+      Premium wireless headphones with clear sound,
+      long battery life and comfortable design.
+    </p>
+
+    <button class="cart-btn">🛒 Add to Cart</button>
+
+  </div>
+
+</body>
+</html>

@@ -1,11 +1,134 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>My Profile</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+
+            /* Background image */
+            background-image: url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-card {
+            width: 400px;
+            padding: 30px;
+            text-align: center;
+
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+
+            border-radius: 50%;
+            object-fit: cover;
+
+            border: 5px solid white;
+        }
+
+        h1 {
+            margin-top: 15px;
+            color: #222;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            background: #333;
+            color: white;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 15px;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            background: #333333;
+            color: light yellow;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #555;
+        }
+    </style>
 </head>
+
 <body>
-    
+
+    <div class="profile-card">
+
+        <!-- Profile Picture -->
+        <img
+            class="profile-pic"
+            src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde"
+            alt="Profile Picture"
+        >
+
+        <h1>Ram</h1>
+
+        <h2>About Me</h2>
+
+        <p>
+            Hello! My name is Ram.
+            I am a B.Tech student and I am learning
+            Web Development.
+        </p>
+
+        <h2>My Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java</li>
+            <li>Python</li>
+        </ul>
+
+        <h2>Contact</h2>
+
+        <p>
+            Email: example@gmail.com
+        </p>
+
+        <button>Contact Me</button>
+
+    </div>
+
 </body>
 </html>
+```
